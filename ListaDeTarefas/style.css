@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+.section-container {
+    position: relative;
+    background-color: white;
+    max-width: 80%;
+    max-height: 80%;
+    margin: 40px auto;
+    padding: 5px 0px 10px 20px;
+    border-radius: 5px;
+}
+
+.buttonApagar {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    background-color: rgb(173, 167, 167);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+}
+
+.buttonApagar:hover {
+    background-color: rgba(189, 184, 184, 0.681);
+    cursor: pointer;
+}
+
+
+.lista {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.espaço {
+    height: 50px
+}
+
+.label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.adiciona {
+    background-color: rgb(162, 234, 196);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+}
+
+.adiciona:hover {
+    background-color: rgb(129, 189, 245);
+    cursor: pointer;
+}
+
+.apaga-todas {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.apaga-todas:hover {
+    background-color: rgba(235, 32, 32, 0.5);
+    cursor: pointer;
+}
